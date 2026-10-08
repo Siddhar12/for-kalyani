@@ -1,0 +1,881 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#C6D9FF">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Happy Birthday, Kalyani Di">
+<meta property="og:description" content="From Siddharth, with flowers.">
+<meta property="og:image" content="https://siddhar12.github.io/for-kalyani/preview.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg fill='%23FF86B1'%3E%3Ccircle cx='16' cy='8' r='6'/%3E%3Ccircle cx='24' cy='14' r='6'/%3E%3Ccircle cx='21' cy='23' r='6'/%3E%3Ccircle cx='11' cy='23' r='6'/%3E%3Ccircle cx='8' cy='14' r='6'/%3E%3C/g%3E%3Ccircle cx='16' cy='16' r='5' fill='%23FFC63F'/%3E%3C/svg%3E">
+<!-- page -->
+<title>Happy Birthday, Kalyani Di</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&amp;family=Kalam:wght@400;700&amp;family=Shrikhand&amp;family=Sorts+Mill+Goudy:ital@0;1&amp;display=swap">
+<style>
+/* Layout: one sky that runs from dawn at the top to night at the bottom.
+   A typed letter on paper with blue pen in the margin, and flowers rooted behind every sheet. */
+:root{
+  color-scheme:light;
+  /* inks */
+  --ink:#3A2142; --ink-soft:#6E5577; --pen:#2B47C9;
+  --paper:#FFFBF3; --slip:#FCFCF5; --cream:#FFF4DD;
+  --pink:#FF86B1; --rose:#D9487E; --gold:#FFC63F; --lilac:#B49AF0;
+  --hl:rgba(255,198,63,.5); --shade:rgba(58,33,66,.3); --shade-thin:rgba(58,33,66,.08); --tape-line:rgba(255,255,255,.35);
+  /* the sky, top to bottom */
+  --dawn:#C6D9FF; --blush:#F9CEE1; --peach:#FFE0C4; --butter:#FFF0BA; --sunset:#FFB59E;
+  --mauve:#A678C4; --dusk:#4A3E90; --deep:#372D78; --night:#201A4A; --sun:#FFE89A;
+  /* type */
+  --display:"Shrikhand","Cooper Black",Georgia,serif;
+  --body:"Sorts Mill Goudy","Goudy Old Style","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --hand:"Kalam","Segoe Print","Bradley Hand","Comic Sans MS",cursive;
+  --mono:"Courier Prime","Courier New",ui-monospace,monospace;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .23 0 0 0 0 .13 0 0 0 0 .26 0 0 0 .62 -.23'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --grain-soft:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .23 0 0 0 0 .13 0 0 0 0 .26 0 0 0 .3 -.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--dawn);color:var(--ink);font-family:var(--body);font-size:clamp(1.125rem,1.05rem + .35vw,1.3rem);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,p,dl,dd{margin:0}
+button{font:inherit;color:inherit}
+main{overflow-x:hidden;overflow-x:clip}
+section{position:relative}
+.wrap{max-width:62rem;margin-inline:auto;padding-inline:clamp(1rem,4vw,2.5rem)}
+.pen{font-family:var(--hand);line-height:1.3}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(2.3rem,1.4rem + 4.6vw,4.2rem);line-height:1.05;text-wrap:balance}
+.lead{font-size:clamp(1.25rem,1.1rem + .7vw,1.55rem);max-width:30ch}
+
+/* ---------- dawn: the hello ---------- */
+.hero{position:relative;overflow:hidden;background:var(--grain),linear-gradient(180deg,var(--dawn),var(--blush));padding-block:clamp(2.5rem,8vw,6rem) 0}
+.sky{position:absolute;inset:0;pointer-events:none}
+.sun{position:absolute;right:-5vw;top:-6vw;width:clamp(13rem,40vw,31rem);aspect-ratio:1;border-radius:50%;background:var(--grain),var(--sun)}
+.cloud{position:absolute;animation:float var(--d,30s) ease-in-out infinite alternate}
+.fluff{position:absolute;left:-60px;top:var(--y,30%);animation:drift var(--d,36s) linear infinite}
+@keyframes float{from{translate:-14px 0}to{translate:18px 0}}
+@keyframes drift{0%{translate:0 0;rotate:-8deg}25%{translate:27vw -34px;rotate:6deg}50%{translate:54vw 8px;rotate:-5deg}75%{translate:82vw -40px;rotate:8deg}100%{translate:calc(100vw + 120px) -14px;rotate:-4deg}}
+.hero-in{position:relative;display:flex;flex-direction:column;gap:clamp(.75rem,2vw,1.5rem)}
+.hello{font-weight:400;display:flex;flex-direction:column;align-items:flex-start;rotate:-3deg;transform-origin:0 100%}
+.hb{font-size:clamp(1.6rem,1rem + 3.2vw,3rem);margin-left:.4em}
+.name{display:inline-block;white-space:nowrap;font-family:var(--display);font-size:clamp(4rem,19vw,13rem);line-height:1.05;color:var(--rose);text-shadow:.035em .04em 0 var(--lilac)}
+.from{align-self:flex-end;margin-right:clamp(.25rem,8vw,7rem);font-weight:700;font-size:clamp(1.6rem,1.1rem + 2.6vw,2.7rem);color:var(--pen);rotate:-3deg}
+@media (max-width:34rem){
+  /* on a phone the name stacks so it can be big, and "from Siddharth" tucks in beside "Di" */
+  .name{white-space:normal;line-height:.98}
+  .name span{display:block}
+  .name span + span{margin-left:.08em}
+  .from{margin-top:calc(var(--nf,84px) * -.62);font-size:1.6rem}
+}
+.hero-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem 2rem}
+.confess{font-size:clamp(1.3rem,1rem + 1.4vw,1.9rem);min-width:0}
+.stamp{display:inline-flex;flex-direction:column;align-items:center;margin-left:auto;margin-right:clamp(0rem,6vw,5rem);font-family:var(--mono);font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:.85rem;line-height:1.5;color:var(--rose);border:3px double var(--rose);border-radius:.5rem;padding:.55rem 1rem;rotate:8deg}
+.stamp span:first-child{font-size:1.05rem}
+.grow-hint{text-align:right;font-size:1.15rem;color:var(--ink-soft);rotate:-1.5deg;margin-top:clamp(.5rem,3vw,2rem)}
+.meadow{position:relative;height:clamp(13rem,30vw,19rem);cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.fl{position:absolute;bottom:-2px;transform-origin:50% 100%;pointer-events:none;animation:sway var(--d,7s) ease-in-out infinite alternate}
+.fl.new{animation:grow .9s cubic-bezier(.2,1.5,.4,1) both,sway var(--d,7s) ease-in-out infinite alternate}
+@keyframes sway{from{rotate:calc(var(--a,2deg) * -1)}to{rotate:var(--a,2deg)}}
+@keyframes grow{from{scale:.02}to{scale:1}}
+
+/* ---------- morning: the letter ---------- */
+.letter{background:var(--grain),linear-gradient(180deg,var(--blush),var(--peach));padding-bottom:clamp(3rem,8vw,6rem)}
+.sheet{position:relative;top:-1.75rem;margin-bottom:-1.75rem;z-index:2;display:flex;flex-direction:column;gap:1.4em;background:var(--grain-soft),var(--paper);padding:clamp(2.25rem,6vw,4.5rem) clamp(1.25rem,5vw,4rem);border-radius:3px;box-shadow:0 1px 0 var(--shade-thin),0 22px 44px -22px var(--shade);rotate:-.5deg}
+.tape{position:absolute;top:-.85rem;width:6.5rem;height:1.7rem;opacity:.85;background:repeating-linear-gradient(90deg,transparent 0 .5rem,var(--tape-line) .5rem .6rem),var(--pink)}
+.t1{left:9%;rotate:-5deg}
+.t2{right:11%;rotate:4deg;background-color:var(--gold)}
+.dear{font-style:italic;font-size:1.5em;line-height:1.2}
+.row{display:grid;grid-template-columns:minmax(0,34rem) minmax(0,1fr);column-gap:clamp(1.25rem,3vw,2.5rem);align-items:center}
+.row > :first-child{min-width:0}
+.note{font-family:var(--hand);color:var(--pen);font-size:1.05em;line-height:1.25;max-width:13rem;rotate:-2.5deg}
+.row:nth-of-type(even) .note{rotate:2deg}
+.wavy{font-style:normal;text-decoration:underline wavy var(--pen);text-decoration-thickness:1.5px;text-underline-offset:.22em}
+.hl{background:linear-gradient(100deg,transparent 1%,var(--hl) 3% 97%,transparent 99%);padding-inline:.15em;border-radius:.35em .1em .3em .15em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.yours{display:flex;flex-direction:column;align-items:flex-start;gap:.1em}
+.signed{font-family:var(--hand);color:var(--pen);font-size:1.7em;line-height:1.2;rotate:-3deg;transform-origin:0 50%}
+.signed-sub{font-family:var(--hand);color:var(--pen);line-height:1.25;rotate:-2deg;transform-origin:0 50%}
+.ps{font-style:italic;color:var(--ink-soft);font-size:.95em;max-width:34rem}
+@media (max-width:46rem){
+  .row{grid-template-columns:minmax(0,1fr);row-gap:.4em}
+  .note{justify-self:end;text-align:right;max-width:15rem}
+}
+
+/* ---------- noon: the bank ---------- */
+.bank{background:var(--grain),linear-gradient(180deg,var(--peach),var(--butter));padding-block:clamp(2rem,6vw,4rem) clamp(3.5rem,9vw,7rem)}
+.bank-in{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:5.5rem clamp(2rem,7vw,6rem)}
+.aside{flex:1 1 17rem;max-width:24rem;min-width:0;display:flex;flex-direction:column;gap:.6em;color:var(--pen);font-family:var(--hand);font-size:clamp(1.3rem,1.1rem + .8vw,1.6rem);line-height:1.3;rotate:-2deg}
+.aside h2{color:var(--rose)}
+.arrow{width:7rem;height:auto;align-self:flex-end;stroke:var(--pen);fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.receipt-holder{position:relative;flex:0 1 20rem;min-width:0;rotate:2.5deg;filter:drop-shadow(0 14px 16px var(--shade))}
+.peek{position:absolute;z-index:-1;right:-1.2rem;top:-6.2rem;rotate:14deg;transform-origin:50% 100%}
+.peek.two{right:auto;left:-.6rem;top:-4.4rem;rotate:-13deg}
+.receipt{--z:7px;position:relative;background:var(--slip);color:var(--ink);font-family:var(--mono);font-size:.9rem;line-height:1.45;padding:1.6rem 1.1rem 2.2rem;-webkit-mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/calc(2 * var(--z)) 100%;mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/calc(2 * var(--z)) 100%}
+.receipt h3{font:700 1.15rem/1.2 var(--mono);text-align:center;letter-spacing:.12em;text-transform:uppercase}
+.receipt .sub{text-align:center;font-size:.82rem}
+.receipt hr{border:0;border-top:1.5px dashed var(--ink-soft);margin:.8rem 0}
+.receipt dl{display:flex;flex-direction:column;gap:.2rem}
+.receipt dl div{display:flex;align-items:baseline;gap:.5em}
+.receipt dt{flex:1 1 auto;display:flex;align-items:baseline;gap:.5em;text-transform:uppercase;white-space:nowrap}
+.receipt dt::after{content:"";flex:1;min-width:.8em;border-bottom:1.5px dotted var(--ink-soft);translate:0 -.2em}
+.receipt dd{text-align:right;font-weight:700}
+.receipt .thanks{text-align:center;text-transform:uppercase;letter-spacing:.06em}
+.receipt .fine{text-align:center;font-size:.8rem;color:var(--ink-soft);margin-top:.6rem}
+@media (max-width:44rem){
+  .arrow{rotate:65deg;align-self:center;margin-block:2.2rem .4rem}
+  .bank-in{row-gap:4.5rem}
+  .peek{right:.4rem;rotate:9deg}
+}
+
+/* ---------- afternoon: the bunch ---------- */
+.bunch{background:var(--grain),linear-gradient(180deg,var(--butter),var(--sunset));padding-block:clamp(2rem,6vw,4rem) clamp(3rem,8vw,6rem)}
+.bunch .wrap{display:flex;flex-direction:column;gap:1rem}
+.bunch h2{color:var(--rose)}
+.vase{display:flex;justify-content:center;align-items:flex-end;margin-top:1.5rem;margin-bottom:-2.4rem}
+.pick{appearance:none;border:0;background:none;padding:0;cursor:pointer;display:block;border-radius:1rem;transition:translate .25s cubic-bezier(.2,1.6,.4,1);-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.pick canvas{display:block}
+@media (hover:hover){.pick:hover{translate:0 -6px}}
+.pick[aria-pressed="true"]{translate:0 -16px}
+.pick:focus-visible{outline:2.5px dashed var(--pen);outline-offset:2px}
+.tag{position:relative;z-index:1;align-self:center;width:min(100%,36rem);min-height:9.5rem;display:flex;flex-direction:column;gap:.6rem;background:var(--grain-soft),var(--paper);padding:1.4rem 1.5rem 1.1rem;border-radius:3px;box-shadow:0 16px 30px -18px var(--shade);rotate:var(--tilt,-1.2deg);transition:rotate .3s ease}
+.tag-text{font-family:var(--hand);font-size:clamp(1.3rem,1.1rem + .8vw,1.6rem);line-height:1.3}
+.tag-count{font-family:var(--mono);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-top:auto}
+
+/* ---------- sunset into dusk: the wish ---------- */
+.turn{position:relative;background:linear-gradient(180deg,var(--sunset),var(--mauve) 60%,var(--dusk));height:clamp(9rem,24vw,15rem);padding-top:1rem}
+.turn::before{content:"";position:absolute;inset:0;pointer-events:none;background:var(--grain);-webkit-mask-image:linear-gradient(#000 15%,transparent 95%);mask-image:linear-gradient(#000 15%,transparent 95%)}
+.turn .wrap{position:relative}
+.turn p{font-size:1.2rem;text-align:right;rotate:1.5deg}
+.wish{background:linear-gradient(180deg,var(--dusk),var(--deep));color:var(--cream);padding-top:clamp(1rem,4vw,2rem);overflow:hidden}
+#dandy{position:absolute;left:0;top:0;pointer-events:none}
+.wish .wrap{position:relative;z-index:1;display:flex;flex-direction:column;gap:1rem}
+.wish h2{color:var(--gold)}
+.stage{position:relative;height:clamp(23rem,62vw,27rem)}
+.after{position:absolute;right:0;bottom:12%;width:min(44%,17rem);display:flex;flex-direction:column;align-items:flex-start;gap:.7rem}
+.after p{font-size:clamp(1.15rem,1rem + .6vw,1.4rem)}
+.after .small{font-size:1rem;color:var(--gold)}
+.again{font-family:var(--hand);font-size:1.1rem;color:var(--night);background:var(--gold);border:0;border-radius:999px;padding:.5rem 1rem;min-height:2.75rem;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.blow{position:absolute;z-index:2;appearance:none;border:0;background:none;border-radius:50%;padding:0;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.again:focus-visible,.blow:focus-visible{outline:2.5px dashed var(--cream);outline-offset:3px}
+
+/* ---------- night: the last thing ---------- */
+.night{background:linear-gradient(180deg,var(--deep),var(--night));color:var(--cream);padding-top:clamp(3rem,10vw,7rem);overflow:hidden}
+#stars{position:absolute;left:0;top:0;pointer-events:none}
+.moon{position:absolute;top:clamp(1.5rem,5vw,3.5rem);right:clamp(1.5rem,9vw,8rem);width:3.4em;aspect-ratio:1;border-radius:50%;font-size:clamp(1rem,2.4vw,1.5rem);box-shadow:inset -.9em .35em 0 0 var(--sun);rotate:-20deg}
+.night .wrap{position:relative;z-index:1;display:flex;flex-direction:column;align-items:flex-start;gap:1.25rem}
+.vow{font-style:italic;font-size:clamp(2rem,1.1rem + 4.2vw,3.9rem);line-height:1.15;max-width:16ch;text-wrap:balance}
+.vow-note{font-size:clamp(1.2rem,1rem + .8vw,1.5rem);color:var(--gold);max-width:28ch;rotate:-1.5deg}
+.sig{align-self:flex-end;display:flex;flex-direction:column;align-items:flex-end;text-align:right;font-size:clamp(1.3rem,1.1rem + 1vw,1.8rem);max-width:22ch;margin-top:1.5rem;rotate:-2deg}
+.sig-name{font-family:var(--display);color:var(--gold);font-size:clamp(2.6rem,1.6rem + 5vw,4.4rem);line-height:1.15}
+.sig-sub{font-size:.85em}
+.colophon{font-family:var(--mono);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;opacity:.75;margin-top:1rem}
+.night .meadow{height:clamp(10rem,24vw,15rem);cursor:default;margin-top:1rem}
+
+@media (prefers-reduced-motion:reduce){
+  .fl,.fl.new,.cloud,.fluff{animation:none}
+  .pick,.tag{transition:none}
+}
+</style>
+
+<main>
+
+<header class="hero">
+  <div class="sky" id="sky" aria-hidden="true"><span class="sun"></span></div>
+  <div class="wrap hero-in">
+    <h1 class="hello"><span class="pen hb">happy birthday,</span> <span class="name" id="name"><span>Kalyani</span> <span>Di</span></span></h1>
+    <p class="pen from">from Siddharth</p>
+    <div class="hero-foot">
+      <p class="pen confess">I forgot. I am sorry.<br>So I made you a whole website.</p>
+      <p class="stamp"><span>arrived late</span><span>still counts</span></p>
+    </div>
+    <p class="pen grow-hint">tap down here. things grow. &darr;</p>
+    <div class="meadow" id="meadow"></div>
+  </div>
+</header>
+
+<section class="letter">
+  <div class="wrap">
+    <article class="sheet">
+      <span class="tape t1" aria-hidden="true"></span><span class="tape t2" aria-hidden="true"></span>
+      <p class="dear">Dear Kalyani Di,</p>
+
+      <div class="row">
+        <p>Happy birthday. I am <em class="wavy">really, really</em> proud of who you have become. I never say this out loud, so I am putting it here, where you can screenshot it and use it against me forever.</p>
+        <p class="note">two &ldquo;really&rdquo;s. I meant both.</p>
+      </div>
+
+      <div class="row">
+        <p>I have to confess something first. For all the years we lived in the same house, I did not admire you very much. You were just there, like the furniture.</p>
+        <p class="note">(very good furniture, to be fair)</p>
+      </div>
+
+      <div class="row">
+        <p>Then you left our hometown, and that is when I finally noticed you. I think this is how it works with people, and with time. We only understand what they were <span class="hl">once they have left</span>.</p>
+      </div>
+
+      <div class="row">
+        <p>You are a <span class="hl">brave woman</span>. You fought your way through all of it, and you are still standing. What shocks me most is how strong you are in your mind. You are stronger than any of us. Maybe on some days you are not, and you only show it. I think that takes strength too.</p>
+        <p class="note">seriously, how do you do it?</p>
+      </div>
+
+      <div class="row">
+        <p>I would like to be as emotionally strong as you one day.</p>
+        <p class="note">work in progress. slow progress.</p>
+      </div>
+
+      <div class="row">
+        <p>Thank you for everything you have done for me. I mean all of it, including the things you think I never noticed.</p>
+        <p class="note">there is a side note about money. keep scrolling &darr;</p>
+      </div>
+
+      <div class="row">
+        <p>I will always be grateful to have a sister like you.</p>
+      </div>
+
+      <div class="row">
+        <p>This website is the smallest thing I can do for you. Second smallest, actually. The smallest was forgetting.</p>
+        <p class="note">sorry. again.</p>
+      </div>
+
+      <p class="yours">Yours,<span class="signed">Siddharth</span><span class="signed-sub">(the one who forgot)</span></p>
+      <p class="ps">P.S. Keep going. There are flowers, a wish, and one bank statement.</p>
+    </article>
+  </div>
+</section>
+
+<section class="bank">
+  <div class="wrap bank-in">
+    <div class="aside">
+      <h2>Side note</h2>
+      <p>Thank you for also becoming my ATM. Open all hours, no card needed, and the only fee is one lecture.</p>
+      <p>Best bank I have ever used.</p>
+      <svg class="arrow" viewBox="0 0 120 60" aria-hidden="true"><path d="M6 8c22 30 58 40 100 24"/><path d="M94 22l13 10-15 8"/></svg>
+    </div>
+    <div class="receipt-holder" id="holder">
+      <div class="receipt">
+        <h3>Bank of Kalyani Di</h3>
+        <p class="sub">sister branch, open 24 hours</p>
+        <hr>
+        <dl>
+          <div><dt>Date</dt><dd>your birthday, late</dd></div>
+          <div><dt>Customer</dt><dd>Siddharth</dd></div>
+          <div><dt>Card</dt><dd>not needed</dd></div>
+          <div><dt>PIN</dt><dd>&ldquo;pleeease&rdquo;</dd></div>
+        </dl>
+        <hr>
+        <dl>
+          <div><dt>Withdrawals</dt><dd>too many to print</dd></div>
+          <div><dt>Deposits</dt><dd>0</dd></div>
+          <div><dt>Fee per request</dt><dd>1 lecture</dd></div>
+        </dl>
+        <hr>
+        <dl>
+          <div><dt>Repaid today</dt><dd>1 website</dd></div>
+          <div><dt>Still owed</dt><dd>everything</dd></div>
+        </dl>
+        <hr>
+        <p class="thanks">Thank you for banking<br>with your sister</p>
+        <p class="fine">please do not close this account</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bunch">
+  <div class="wrap">
+    <h2>Pick a flower</h2>
+    <p class="pen lead">Seven flowers. Each one is holding something for you.</p>
+    <div class="vase" id="vase"></div>
+    <div class="tag" id="tag">
+      <p class="tag-text" id="tagText" aria-live="polite">You are the bravest person I know. I went through the whole list twice.</p>
+      <p class="tag-count" id="tagCount">1 of 7 picked</p>
+    </div>
+  </div>
+</section>
+
+<div class="turn">
+  <div class="wrap"><p class="pen">it is getting late. so was I.</p></div>
+</div>
+
+<section class="wish" id="wish">
+  <canvas id="dandy" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <h2>Make a wish</h2>
+    <p class="pen lead">I did not get candles either, so here is a dandelion. Tap it to blow.</p>
+    <div class="stage" id="stage">
+      <div class="after" id="after" hidden>
+        <p class="pen">Wish sent. I hope it comes true this year.</p>
+        <p class="pen small">If you wished for a sibling who remembers dates, that one may take longer.</p>
+        <button type="button" class="again" id="again">grow another one</button>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="blow" id="blow" aria-label="Blow the dandelion"></button>
+</section>
+
+<section class="night" id="night">
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <span class="moon" aria-hidden="true"></span>
+  <div class="wrap">
+    <p class="vow">Every time I am born, I want you to be my sister.</p>
+    <p class="pen vow-note">every single time. I will try to remember the birthdays in the next ones.</p>
+    <p class="pen sig">from <span class="sig-name">Siddharth</span><span class="sig-sub">the one who forgot the date, and nothing else</span></p>
+    <p class="colophon">made on your birthday, in a hurry, with a lot of love</p>
+  </div>
+  <div class="meadow" id="nightMeadow" aria-hidden="true"></div>
+</section>
+
+</main>
+
+<script>
+(function () {
+  'use strict';
+  var TAU = Math.PI * 2;
+  var DPR = Math.min(window.devicePixelRatio || 1, 2);
+  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function $(s) { return document.querySelector(s); }
+
+  // seeded random, so the meadow looks the same every visit
+  function rng(seed) {
+    var a = seed >>> 0;
+    return function () {
+      a = (a + 0x6D2B79F5) | 0;
+      var t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function any(list, rand) { return list[Math.floor(rand() * list.length)]; }
+  function mk(w, h) {
+    var c = document.createElement('canvas');
+    c.width = Math.max(1, Math.ceil(w * DPR));
+    c.height = Math.max(1, Math.ceil(h * DPR));
+    c.style.width = w + 'px';
+    c.style.height = h + 'px';
+    c._w = w; c._h = h;
+    var x = c.getContext('2d');
+    x.scale(DPR, DPR);
+    return [c, x];
+  }
+  function dot(x, cx, cy, r) { x.beginPath(); x.arc(cx, cy, r, 0, TAU); x.fill(); }
+  function line(x, x1, y1, x2, y2) { x.beginPath(); x.moveTo(x1, y1); x.lineTo(x2, y2); x.stroke(); }
+  function leaf(x, px, py, len, ang, col) {
+    x.save(); x.translate(px, py); x.rotate(ang); x.fillStyle = col;
+    x.beginPath(); x.moveTo(0, 0);
+    x.quadraticCurveTo(len * 0.5, -len * 0.34, len, 0);
+    x.quadraticCurveTo(len * 0.5, len * 0.34, 0, 0);
+    x.fill(); x.restore();
+  }
+
+  // three flat inks per flower: deep, mid, light
+  var INK = {
+    pink:  ['#D9487E', '#FF86B1', '#FFD3E3'],
+    coral: ['#E8623F', '#FF9A76', '#FFD9C8'],
+    gold:  ['#E59A0B', '#FFC63F', '#FFEDB0'],
+    lilac: ['#8361D1', '#B49AF0', '#E6DCFF'],
+    blue:  ['#4A86D8', '#8BBBF5', '#D8E9FF'],
+    cream: ['#E3D5C3', '#FFF6EA', '#FFFFFF']
+  };
+  var STEM = '#5E8F72', LEAF = '#86B394', CLOUD_SHADE = '#E3DBF7', SEED = '#E9D9B8', WHITE = '#FFFFFF';
+
+  var HEAD = {
+    // a round pom-pom of tufts
+    pom: function (x, cx, cy, r, c, rand) {
+      var i, a, d, px, py, t, n;
+      x.lineCap = 'round';
+      x.lineWidth = Math.max(0.8, r * 0.035);
+      x.strokeStyle = c[1];
+      x.globalAlpha = 0.55;
+      for (i = 0; i < 64; i++) {
+        a = rand() * TAU; d = r * (0.95 + rand() * 0.22);
+        line(x, cx + Math.cos(a) * r * 0.6, cy + Math.sin(a) * r * 0.6, cx + Math.cos(a) * d, cy + Math.sin(a) * d);
+      }
+      x.globalAlpha = 1;
+      x.fillStyle = c[0];
+      dot(x, cx, cy, r * 0.88);
+      n = Math.round(150 + r * 3);
+      for (i = 0; i < n; i++) {
+        a = rand() * TAU; d = Math.sqrt(rand()) * r * 0.94;
+        px = cx + Math.cos(a) * d; py = cy + Math.sin(a) * d;
+        t = ((cx - px) * 0.6 + (cy - py) * 0.8) / r + (rand() - 0.5) * 0.8;
+        x.fillStyle = t > 0.3 ? c[2] : t > -0.3 ? c[1] : c[0];
+        x.globalAlpha = 0.6 + rand() * 0.4;
+        dot(x, px, py, r * (0.07 + rand() * 0.08));
+      }
+      x.globalAlpha = 1;
+    },
+    // rings of soft petals, like a dahlia
+    ruffle: function (x, cx, cy, r, c, rand) {
+      var rings = [[1, 12, c[0]], [0.8, 10, c[1]], [0.58, 8, c[2]], [0.36, 6, c[1]], [0.18, 5, c[2]]];
+      rings.forEach(function (g) {
+        var k = g[0], n = g[1], off = rand() * TAU, i, a, pr, d;
+        x.fillStyle = g[2];
+        for (i = 0; i < n; i++) {
+          a = off + (i / n) * TAU + (rand() - 0.5) * 0.3;
+          pr = r * k * (0.36 + rand() * 0.08);
+          d = r * k * 0.66;
+          x.beginPath();
+          x.ellipse(cx + Math.cos(a) * d, cy + Math.sin(a) * d, pr, pr * 0.82, a, 0, TAU);
+          x.fill();
+        }
+        dot(x, cx, cy, r * k * 0.62);
+      });
+    },
+    // bunny tail grass
+    tail: function (x, cx, cy, r, c, rand) {
+      var rx = r * 0.52, i, u, d, px, py, ang, l, t;
+      x.fillStyle = c[1];
+      x.beginPath(); x.ellipse(cx, cy, rx * 0.92, r * 0.92, 0, 0, TAU); x.fill();
+      x.lineCap = 'round';
+      x.lineWidth = Math.max(0.9, r * 0.04);
+      for (i = 0; i < 300; i++) {
+        u = rand() * TAU; d = Math.sqrt(rand());
+        px = cx + Math.cos(u) * rx * d; py = cy + Math.sin(u) * r * d;
+        ang = -Math.PI / 2 + ((px - cx) / rx) + (rand() - 0.5) * 0.5;
+        l = r * (0.16 + rand() * 0.2);
+        t = ((cx - px) / rx) * 0.5 + ((cy - py) / r) * 0.6 + (rand() - 0.5) * 0.8;
+        x.strokeStyle = t > 0.3 ? c[2] : t > -0.3 ? c[1] : c[0];
+        x.globalAlpha = 0.65 + rand() * 0.35;
+        line(x, px, py, px + Math.cos(ang) * l, py + Math.sin(ang) * l);
+      }
+      x.globalAlpha = 1;
+    },
+    // dandelion clock
+    puff: function (x, cx, cy, r, c, rand) {
+      var i, j, a, b, d, l, tx, ty;
+      x.fillStyle = c[2]; x.globalAlpha = 0.16; dot(x, cx, cy, r * 1.02);
+      x.lineCap = 'round';
+      for (i = 0; i < 80; i++) {
+        a = rand() * TAU; d = r * (0.3 + 0.7 * Math.sqrt(rand()));
+        tx = cx + Math.cos(a) * d; ty = cy + Math.sin(a) * d;
+        x.strokeStyle = c[1]; x.globalAlpha = 0.45; x.lineWidth = Math.max(0.6, r * 0.018);
+        line(x, cx, cy, tx, ty);
+        x.strokeStyle = c[2]; x.globalAlpha = 0.85;
+        for (j = 0; j < 7; j++) {
+          b = rand() * TAU; l = r * (0.1 + rand() * 0.1);
+          line(x, tx, ty, tx + Math.cos(b) * l, ty + Math.sin(b) * l);
+        }
+      }
+      x.globalAlpha = 1; x.fillStyle = c[0]; dot(x, cx, cy, r * 0.1);
+    }
+  };
+
+  // one flower on its stem, drawn once to its own small canvas
+  function flower(o) {
+    var rand = rng(o.seed), r = o.r, pad = r * 0.4, lean = o.lean || 0;
+    var w = Math.ceil(r * 2 + pad * 2 + Math.abs(lean) * 2), h = Math.ceil(o.stem + r * 2 + pad);
+    var m = mk(w, h), cv = m[0], x = m[1];
+    var bx = w / 2, by = h, hx = w / 2 + lean, hy = pad + r;
+    var ex = hx, ey = o.kind === 'tail' ? hy + r * 0.75 : hy;
+    var qx = bx - lean * 0.7 + (rand() - 0.5) * r * 0.5, qy = by - (by - ey) * 0.5;
+    var leaves, i, t, lx, ly, right;
+    x.strokeStyle = STEM; x.lineCap = 'round'; x.lineWidth = Math.max(1.6, r * 0.075);
+    x.beginPath(); x.moveTo(bx, by); x.quadraticCurveTo(qx, qy, ex, ey); x.stroke();
+    if (o.stem > r * 2.2) {
+      leaves = rand() < 0.35 ? 2 : 1;
+      right = rand() < 0.5;
+      for (i = 0; i < leaves; i++) {
+        t = 0.22 + rand() * 0.34;
+        lx = (1 - t) * (1 - t) * bx + 2 * (1 - t) * t * qx + t * t * ex;
+        ly = (1 - t) * (1 - t) * by + 2 * (1 - t) * t * qy + t * t * ey;
+        leaf(x, lx, ly, r * (0.7 + rand() * 0.5), right ? -0.6 - rand() * 0.4 : Math.PI + 0.6 + rand() * 0.4, i % 2 ? LEAF : STEM);
+        right = !right;
+      }
+    }
+    HEAD[o.kind](x, hx, hy, r, INK[o.hue], rand);
+    return cv;
+  }
+
+  function place(el, cv, fx, rand, cls) {
+    cv.className = cls;
+    cv.style.left = (fx * 100).toFixed(2) + '%';
+    cv.style.marginLeft = (-cv._w / 2) + 'px';
+    cv.style.setProperty('--d', (5 + rand() * 5).toFixed(2) + 's');
+    cv.style.setProperty('--a', (1.2 + rand() * 2.4).toFixed(2) + 'deg');
+    cv.style.animationDelay = (-rand() * 9).toFixed(2) + 's';
+    el.appendChild(cv);
+  }
+
+  function plantMeadow(el, cfg) {
+    var old = el.querySelectorAll('.auto'), i, r, stem, cv;
+    for (i = 0; i < old.length; i++) old[i].remove();
+    var W = el.clientWidth, H = el.clientHeight;
+    if (!W || !H) return;
+    var rand = rng(cfg.seed), n = Math.max(9, Math.min(cfg.max, Math.round(W / cfg.gap)));
+    var sc = Math.max(0.8, Math.min(1, W / 880));
+    for (i = 0; i < n; i++) {
+      r = (17 + rand() * 25) * sc;
+      stem = (H - r * 2.4) * (0.3 + 0.7 * rand());
+      cv = flower({ kind: any(cfg.kinds, rand), hue: any(cfg.hues, rand), r: r, stem: stem, lean: (rand() - 0.5) * r * 0.9, seed: cfg.seed * 100 + i });
+      place(el, cv, (i + 0.5 + (rand() - 0.5) * 0.8) / n, rand, 'fl auto');
+      cv.style.zIndex = String(400 - Math.round(stem));
+    }
+  }
+
+  // ----- the sky over the hello -----
+  function cloud(w, seed) {
+    var rand = rng(seed), h = w * 0.52, m = mk(w, h), cv = m[0], x = m[1], n = 7, i, f, rad, lumps = [];
+    var base = h * 0.74;
+    for (i = 0; i < n; i++) {
+      f = i / (n - 1);
+      rad = h * (0.15 + 0.2 * Math.sin(Math.PI * f) + rand() * 0.05);
+      lumps.push([w * (0.15 + 0.7 * f), base - rad * 0.7, rad]);
+    }
+    x.fillStyle = CLOUD_SHADE;
+    lumps.forEach(function (l) { dot(x, l[0] + w * 0.012, l[1] + h * 0.07, l[2]); });
+    x.beginPath(); x.ellipse(w / 2, base + h * 0.04, w * 0.38, h * 0.13, 0, 0, TAU); x.fill();
+    x.fillStyle = WHITE;
+    lumps.forEach(function (l) { dot(x, l[0], l[1], l[2]); });
+    x.beginPath(); x.ellipse(w / 2, base - h * 0.02, w * 0.37, h * 0.12, 0, 0, TAU); x.fill();
+    return cv;
+  }
+  function floater(size) {
+    var w = size, h = size * 1.9, m = mk(w, h), cv = m[0], x = m[1], rand = rng(9), i, a, l, cx = w / 2, cy = size * 0.5;
+    x.lineCap = 'round';
+    x.strokeStyle = 'rgba(58,33,66,.45)'; x.lineWidth = 1;
+    line(x, cx, cy, cx, h - 4);
+    x.fillStyle = '#6E5577'; x.beginPath(); x.ellipse(cx, h - 4, 1.4, 3.2, 0, 0, TAU); x.fill();
+    for (i = 0; i < 18; i++) {
+      a = -Math.PI * (0.03 + 0.94 * rand());
+      l = size * (0.3 + rand() * 0.18);
+      x.strokeStyle = 'rgba(58,33,66,.22)'; x.lineWidth = 1.7;
+      line(x, cx, cy, cx + Math.cos(a) * l, cy + Math.sin(a) * l);
+      x.strokeStyle = WHITE; x.lineWidth = 1;
+      line(x, cx, cy, cx + Math.cos(a) * l, cy + Math.sin(a) * l);
+    }
+    return cv;
+  }
+  function buildSky() {
+    var sky = $('#sky'), sc = Math.max(0.55, Math.min(1, window.innerWidth / 1000));
+    [[230, '4%', '7%', 34, 3], [310, '50%', '2%', 46, 5], [190, '76%', '40%', 39, 8]].forEach(function (c) {
+      var cv = cloud(c[0] * sc, c[4]);
+      cv.className = 'cloud';
+      cv.style.left = c[1]; cv.style.top = c[2];
+      cv.style.setProperty('--d', c[3] + 's');
+      sky.appendChild(cv);
+    });
+    [[12, 38, 0], [30, 52, -17], [46, 44, -31], [58, 61, -8], [22, 70, -44]].forEach(function (s, i) {
+      var cv = floater(22 + (i % 3) * 5);
+      cv.className = 'fluff';
+      cv.style.setProperty('--y', s[0] + '%');
+      cv.style.setProperty('--d', s[1] + 's');
+      cv.style.animationDelay = s[2] + 's';
+      sky.appendChild(cv);
+    });
+  }
+
+  function fitName() {
+    var el = $('#name'), box = el.parentElement.clientWidth;
+    el.style.fontSize = '100px';
+    var w = el.offsetWidth || 1;
+    var size = Math.min(230, Math.max(44, (box * 0.94 / w) * 100));
+    el.style.fontSize = size.toFixed(1) + 'px';
+    el.closest('.hero-in').style.setProperty('--nf', size.toFixed(1) + 'px');
+  }
+
+  // ----- tap the meadow, grow a flower -----
+  var meadow = $('#meadow'), nightMeadow = $('#nightMeadow'), planted = [];
+  meadow.addEventListener('click', function (e) {
+    var b = meadow.getBoundingClientRect();
+    var rand = rng((Date.now() ^ Math.round(e.clientX * 977)) >>> 0);
+    var sc = Math.max(0.8, Math.min(1, b.width / 880)), r = (20 + rand() * 22) * sc;
+    var stem = Math.max(r * 0.8, Math.min(b.height - r * 2.4, b.bottom - e.clientY - r));
+    var cv = flower({ kind: any(['pom', 'ruffle', 'tail', 'pom'], rand), hue: any(['pink', 'coral', 'gold', 'lilac', 'blue', 'cream'], rand), r: r, stem: stem, lean: (rand() - 0.5) * r * 0.9, seed: Math.floor(rand() * 1e9) });
+    place(meadow, cv, (e.clientX - b.left) / b.width, rand, 'fl new');
+    cv.style.animationDelay = '0s, 0s';
+    cv.style.zIndex = String(400 - Math.round(stem));
+    planted.push(cv);
+    if (planted.length > 36) planted.shift().remove();
+  });
+
+  // ----- two flowers tucked behind the receipt -----
+  (function () {
+    var holder = $('#holder');
+    var a = flower({ kind: 'ruffle', hue: 'lilac', r: 34, stem: 150, lean: 8, seed: 91 });
+    var b = flower({ kind: 'pom', hue: 'gold', r: 26, stem: 120, lean: -6, seed: 92 });
+    a.className = 'peek'; b.className = 'peek two';
+    holder.insertBefore(a, holder.firstChild);
+    holder.insertBefore(b, holder.firstChild);
+  })();
+
+  // ----- the bunch -----
+  var NOTES = [
+    { hue: 'pink',  kind: 'pom',    name: 'Pink pom-pom',   text: 'You are the bravest person I know. I went through the whole list twice.' },
+    { hue: 'gold',  kind: 'ruffle', name: 'Yellow dahlia',  text: 'Good for one phone call where I do not ask for money. Valid once. Use it wisely.' },
+    { hue: 'lilac', kind: 'tail',   name: 'Lilac bunny tail', text: 'I am proud of you. That is the whole note.' },
+    { hue: 'coral', kind: 'pom',    name: 'Coral pom-pom',  text: 'You made hard things look easy. I know now that they were not.' },
+    { hue: 'blue',  kind: 'ruffle', name: 'Blue dahlia',    text: 'Good for one hug, to be collected the next time you are home. No expiry date.' },
+    { hue: 'cream', kind: 'tail',   name: 'White bunny tail', text: 'I notice you now. I should have started sooner.' },
+    { hue: 'pink',  kind: 'ruffle', name: 'Pink dahlia',    text: 'Whatever you are hoping for this year, I hope it finds you.' }
+  ];
+  var vase = $('#vase'), tag = $('#tag'), tagText = $('#tagText'), tagCount = $('#tagCount');
+  var seen = NOTES.map(function (n, i) { return i === 0; });
+  var picks = NOTES.map(function (n, i) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'pick'; b.id = 'pick-' + i;
+    b.setAttribute('aria-label', n.name);
+    b.setAttribute('aria-pressed', i === 0 ? 'true' : 'false');
+    b.addEventListener('click', function () { choose(i); });
+    vase.appendChild(b);
+    return b;
+  });
+  function choose(i) {
+    picks.forEach(function (b, j) { b.setAttribute('aria-pressed', j === i ? 'true' : 'false'); });
+    seen[i] = true;
+    tagText.textContent = NOTES[i].text;
+    var c = seen.filter(Boolean).length;
+    tagCount.textContent = c === NOTES.length ? 'All seven picked. The bunch is yours to keep.' : c + ' of ' + NOTES.length + ' picked';
+    tag.style.setProperty('--tilt', ((i % 2 ? 1 : -1) * (0.7 + (i % 3) * 0.4)) + 'deg');
+  }
+  function buildBunch() {
+    var W = vase.clientWidth, r = Math.max(16, Math.min(34, W / 17.4));
+    var tall = [0.72, 1, 0.6, 0.9, 0.66, 0.96, 0.78], size = [1, 1.08, 0.92, 1.04, 1.1, 0.94, 1];
+    picks.forEach(function (b, i) {
+      var cv = flower({ kind: NOTES[i].kind, hue: NOTES[i].hue, r: r * size[i], stem: r * 3.6 * tall[i] + 44, lean: 0, seed: 500 + i });
+      b.textContent = '';
+      b.appendChild(cv);
+      b.style.marginInline = (-0.2 * r) + 'px';
+    });
+  }
+
+  // ----- the dandelion -----
+  var wish = $('#wish'), dcv = $('#dandy'), dx = dcv.getContext('2d'), stage = $('#stage');
+  var blow = $('#blow'), after = $('#after'), again = $('#again');
+  var D = null, seeds = [], spr = null, state = 'ready', raf = 0, last = 0, clock = 0, shown = false, byKey = false;
+
+  function pappus(p) {
+    var m = mk(p * 2, p * 2), x = m[1], rand = rng(3), i, a, l;
+    x.lineCap = 'round'; x.strokeStyle = WHITE; x.lineWidth = Math.max(0.7, p * 0.045);
+    for (i = 0; i < 16; i++) {
+      a = (i / 16) * TAU + rand() * 0.3; l = p * (0.62 + rand() * 0.36);
+      x.globalAlpha = 0.55 + rand() * 0.4;
+      line(x, p, p, p + Math.cos(a) * l, p + Math.sin(a) * l);
+    }
+    x.globalAlpha = 1; x.fillStyle = WHITE; dot(x, p, p, Math.max(0.8, p * 0.06));
+    m[0]._p = p;
+    return m[0];
+  }
+  function seedSet() {
+    var rand = rng(41), i, th, z, s;
+    seeds = [];
+    for (i = 0; i < 130; i++) {
+      th = rand() * TAU; z = rand() * 2 - 1; s = Math.sqrt(1 - z * z);
+      seeds.push({ ux: Math.cos(th) * s, uy: Math.sin(th) * s, z: z, len: 0.9 + rand() * 0.12, ph: rand() * TAU, sp: 0.6 + rand() * 0.8, jit: rand(), delay: 0, free: false, gone: false, x: 0, y: 0, vx: 0, vy: 0, t: 0, ang: 0, al: 1 });
+    }
+    seeds.sort(function (a, b) { return a.z - b.z; });
+  }
+  function layWish() {
+    var W = wish.clientWidth, H = wish.clientHeight, wr = wish.getBoundingClientRect(), sr = stage.getBoundingClientRect();
+    dcv.width = Math.ceil(W * DPR); dcv.height = Math.ceil(H * DPR);
+    dcv.style.width = W + 'px'; dcv.style.height = H + 'px';
+    dx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    var R = Math.max(64, Math.min(118, W * 0.2));
+    var cx = sr.left - wr.left + Math.max(R * 1.15, sr.width * 0.3), cy = sr.top - wr.top + R * 1.3;
+    D = { W: W, H: H, R: R, cx: cx, cy: cy, rx: cx + R * 0.45, ry: sr.bottom - wr.top + 4, stars: [] };
+    // the first stars come out here and thicken toward the night below
+    var rand = rng(19), n = Math.round(W * H / 9000), i, j, st, hit;
+    var words = [].map.call(wish.querySelectorAll('h2,.lead'), function (e) {
+      var q = e.getBoundingClientRect();
+      return [q.left - wr.left - 12, q.top - wr.top - 12, q.right - wr.left + 12, q.bottom - wr.top + 12];
+    });
+    for (i = 0; i < n; i++) {
+      st = [rand() * W, H * (1 - Math.pow(rand(), 2.2)), 0.5 + rand() * 1.1, 0.2 + rand() * 0.55];
+      hit = false;
+      for (j = 0; j < words.length; j++) if (st[0] > words[j][0] && st[0] < words[j][2] && st[1] > words[j][1] && st[1] < words[j][3]) hit = true;
+      if (!hit) D.stars.push(st);
+    }
+    spr = pappus(R * 0.24);
+    blow.style.left = (cx - R * 1.2) + 'px';
+    blow.style.top = (cy - R * 1.2) + 'px';
+    blow.style.width = blow.style.height = (R * 2.4) + 'px';
+  }
+  function drawWish(g) {
+    var R = D.R, cx = D.cx, cy = D.cy, p = spr._p, i, s, k, tx, ty, fl, held = false;
+    dx.clearRect(0, 0, D.W, D.H);
+    dx.fillStyle = '#FFF4DD';
+    for (i = 0; i < D.stars.length; i++) { dx.globalAlpha = D.stars[i][3]; dot(dx, D.stars[i][0], D.stars[i][1], D.stars[i][2]); }
+    dx.lineCap = 'round'; dx.globalAlpha = 1;
+    dx.strokeStyle = LEAF; dx.lineWidth = 3.4;
+    dx.beginPath(); dx.moveTo(D.rx, D.ry); dx.quadraticCurveTo(D.rx + R * 0.3, cy + (D.ry - cy) * 0.5, cx, cy); dx.stroke();
+    for (i = 0; i < seeds.length; i++) if (!seeds[i].free && !seeds[i].gone) { held = true; break; }
+    if (held) {
+      dx.fillStyle = WHITE; dx.globalAlpha = 0.07 * g;
+      dot(dx, cx, cy, R * 1.12 * g); dot(dx, cx, cy, R * 0.8 * g);
+    }
+    for (i = 0; i < seeds.length; i++) {
+      s = seeds[i];
+      if (s.gone) continue;
+      if (!s.free) {
+        k = 0.5 + 0.25 * (s.z + 1);
+        tx = cx + s.ux * R * s.len * g; ty = cy + s.uy * R * s.len * g;
+        dx.strokeStyle = WHITE; dx.lineWidth = 0.9; dx.globalAlpha = 0.34 * k;
+        line(dx, cx, cy, tx, ty);
+        dx.globalAlpha = k * g;
+        dx.drawImage(spr, tx - p, ty - p, p * 2, p * 2);
+      } else {
+        fl = R * (0.42 + 0.5 * Math.max(0, 1 - s.t * 2));
+        tx = s.x + Math.cos(s.ang) * fl; ty = s.y + Math.sin(s.ang) * fl;
+        dx.strokeStyle = WHITE; dx.lineWidth = 0.9; dx.globalAlpha = 0.5 * s.al;
+        line(dx, s.x, s.y, tx, ty);
+        dx.fillStyle = SEED; dx.globalAlpha = 0.9 * s.al; dot(dx, tx, ty, 1.6);
+        dx.globalAlpha = s.al;
+        dx.drawImage(spr, s.x - p, s.y - p, p * 2, p * 2);
+      }
+    }
+    dx.globalAlpha = 1; dx.fillStyle = SEED; dot(dx, cx, cy, R * 0.09);
+  }
+  function showAfter() {
+    shown = true; after.hidden = false;
+    if (byKey) again.focus({ preventScroll: true });
+  }
+  function tick(now) {
+    var dt = Math.min(0.05, (now - last) / 1000), alive = 0, i, s, target, d;
+    // on a narrow screen the breeze is gentler and lifts more, so the seeds stay in view longer
+    var ws = Math.max(0.45, Math.min(1, D.W / 900));
+    last = now; clock += dt;
+    for (i = 0; i < seeds.length; i++) {
+      s = seeds[i];
+      if (s.gone) continue;
+      if (!s.free) {
+        if (clock >= s.delay) {
+          s.free = true; s.t = 0; s.al = 1;
+          s.x = D.cx + s.ux * D.R * s.len; s.y = D.cy + s.uy * D.R * s.len;
+          s.vx = s.ux * 70 + 50 * ws; s.vy = s.uy * 70 - 20;
+          s.ang = Math.atan2(-s.uy, -s.ux);
+        }
+        alive++;
+        continue;
+      }
+      s.t += dt;
+      s.vx += ((120 + 110 * s.sp) * ws - s.vx) * dt * 1.1;
+      s.vy += ((-34 * s.sp - (1 - ws) * 44 + Math.sin(s.t * 1.7 + s.ph) * 38) - s.vy) * dt * 1.6;
+      s.x += s.vx * dt; s.y += s.vy * dt;
+      target = Math.PI / 2 + 0.3 + Math.sin(s.t * 2.2 + s.ph) * 0.3;
+      d = Math.atan2(Math.sin(target - s.ang), Math.cos(target - s.ang));
+      s.ang += d * Math.min(1, dt * 3.5);
+      s.al = s.t > 4.2 ? Math.max(0, 1 - (s.t - 4.2) / 1.6) : 1;
+      if (s.al <= 0 || s.x > D.W + 80 || s.y < -80) { s.gone = true; continue; }
+      alive++;
+    }
+    drawWish(1);
+    if (!shown && clock > 1.7) showAfter();
+    if (alive) raf = requestAnimationFrame(tick);
+    else { raf = 0; state = 'bare'; if (!shown) showAfter(); }
+  }
+  function finishBlow() {
+    if (raf) cancelAnimationFrame(raf);
+    raf = 0;
+    seeds.forEach(function (s) { s.gone = true; });
+    state = 'bare';
+    blow.hidden = true;
+    drawWish(1);
+    if (!shown) showAfter();
+  }
+  blow.addEventListener('click', function (e) {
+    if (state !== 'ready') return;
+    byKey = e.detail === 0;
+    state = 'blowing'; shown = false; blow.hidden = true;
+    if (still) { finishBlow(); return; }
+    seeds.forEach(function (s) { s.delay = (1 - s.ux) * 0.45 + s.jit * 0.4; });
+    clock = 0; last = performance.now();
+    raf = requestAnimationFrame(tick);
+  });
+  again.addEventListener('click', function (e) {
+    var key = e.detail === 0, t0;
+    if (raf) cancelAnimationFrame(raf);
+    raf = 0;
+    seedSet(); after.hidden = true; blow.hidden = false; state = 'ready';
+    if (key) blow.focus({ preventScroll: true });
+    if (still) { drawWish(1); return; }
+    t0 = performance.now();
+    (function pop(now) {
+      var g = Math.min(1, Math.max(0, (now - t0) / 650));
+      g = 1 - Math.pow(1 - g, 3);
+      if (state !== 'ready') return;
+      drawWish(g);
+      if (g < 1) requestAnimationFrame(pop);
+    })(t0);
+  });
+
+  // ----- the night sky -----
+  function stars() {
+    var el = $('#stars'), box = $('#night'), W = box.clientWidth, H = box.clientHeight, x = el.getContext('2d');
+    var rand = rng(12), i, n, px, py, r, f, tries, sp = pappus(11);
+    // keep the bigger shapes off the words
+    var br = box.getBoundingClientRect();
+    var words = [].map.call(box.querySelectorAll('.vow,.vow-note,.sig,.colophon'), function (e) {
+      var q = e.getBoundingClientRect();
+      return [q.left - br.left - 16, q.top - br.top - 16, q.right - br.left + 16, q.bottom - br.top + 16];
+    });
+    function open(ax, ay) {
+      for (var j = 0; j < words.length; j++) if (ax > words[j][0] && ax < words[j][2] && ay > words[j][1] && ay < words[j][3]) return false;
+      return true;
+    }
+    el.width = Math.ceil(W * DPR); el.height = Math.ceil(H * DPR);
+    el.style.width = W + 'px'; el.style.height = H + 'px';
+    x.setTransform(DPR, 0, 0, DPR, 0, 0);
+    x.clearRect(0, 0, W, H);
+    x.fillStyle = '#FFF4DD';
+    n = Math.round(W * H / 5200);
+    for (i = 0; i < n; i++) {
+      px = rand() * W; py = Math.pow(rand(), 1.5) * H * 0.9; r = 0.5 + rand() * 1.2;
+      x.globalAlpha = 0.25 + rand() * 0.65;
+      if (open(px, py)) dot(x, px, py, r);
+    }
+    x.globalAlpha = 0.9;
+    for (i = 0; i < 7; i++) {
+      r = 4 + rand() * 5; tries = 0;
+      do { px = rand() * W; py = rand() * H * 0.6; tries++; } while (!open(px, py) && tries < 14);
+      if (!open(px, py)) continue;
+      x.beginPath(); x.moveTo(px, py - r);
+      x.quadraticCurveTo(px, py, px + r, py);
+      x.quadraticCurveTo(px, py, px, py + r);
+      x.quadraticCurveTo(px, py, px - r, py);
+      x.quadraticCurveTo(px, py, px, py - r);
+      x.fill();
+    }
+    // a few seeds from the dandelion that made it all the way up here
+    x.lineCap = 'round'; x.strokeStyle = WHITE; x.lineWidth = 0.9;
+    for (i = 0; i < 9; i++) {
+      f = (i + rand() * 0.8) / 9; tries = 0;
+      do {
+        px = W * (0.06 + 0.86 * f) + (rand() - 0.5) * 40;
+        py = H * (0.74 - 0.6 * f) + (rand() - 0.5) * (70 + tries * 40);
+        tries++;
+      } while (!(open(px, py) && open(px - 6, py + 20)) && tries < 10);
+      if (!(open(px, py) && open(px - 6, py + 20))) continue;
+      x.globalAlpha = 0.45;
+      line(x, px, py, px - 6, py + 20);
+      x.fillStyle = SEED; x.globalAlpha = 0.8; dot(x, px - 6, py + 20, 1.5);
+      x.globalAlpha = 0.85;
+      x.drawImage(sp, px - 11, py - 11, 22, 22);
+    }
+    x.globalAlpha = 1;
+  }
+
+  // ----- put it all together -----
+  var lastW = 0;
+  function build() {
+    var w = window.innerWidth;
+    fitName();
+    if (w !== lastW) {
+      lastW = w;
+      plantMeadow(meadow, { seed: 7, gap: 46, max: 22, kinds: ['pom', 'ruffle', 'tail', 'pom'], hues: ['pink', 'coral', 'gold', 'lilac', 'blue', 'cream'] });
+      plantMeadow(nightMeadow, { seed: 8, gap: 58, max: 22, kinds: ['puff', 'pom', 'tail', 'puff'], hues: ['cream', 'lilac', 'blue', 'cream', 'pink'] });
+      buildBunch();
+    }
+    layWish();
+    if (state === 'blowing') finishBlow(); else drawWish(1);
+    stars();
+  }
+  seedSet();
+  buildSky();
+  build();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(build);
+  window.addEventListener('load', build);
+  var timer = 0;
+  window.addEventListener('resize', function () {
+    clearTimeout(timer);
+    timer = setTimeout(build, 180);
+  });
+})();
+</script>
+</html>
